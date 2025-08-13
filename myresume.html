@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Resume - Neon Theme</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        /* Back to Homepage button */
+        .home-btn {
+            background: none;
+            color: #00fff2;
+            padding: 12px 25px;
+            font-size: 18px;
+            text-decoration: none;
+            border: 2px solid #00fff2;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2;
+            transition: all 0.3s ease;
+        }
+
+        .home-btn:hover {
+            color: #ff00ff;
+            border-color: #ff00ff;
+            box-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff;
+        }
+
+        /* Big resume box */
+        .resume-box {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 25px;
+            border-radius: 20px;
+            text-align: center;
+            border: 3px solid #00fff2;
+            box-shadow: 0 0 25px #00fff2, 0 0 50px #00fff2;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            max-width: 800px;
+            width: 90%;
+        }
+
+        .resume-box:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 30px #ff00ff, 0 0 60px #ff00ff;
+            border-color: #ff00ff;
+        }
+
+        .resume-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            border: 2px solid #00fff2;
+            box-shadow: 0 0 15px #00fff2, 0 0 30px #00fff2;
+        }
+
+        .resume-box h2 {
+            margin-top: 20px;
+            font-size: 28px;
+            color: #00fff2;
+            text-shadow: 0 0 8px #00fff2, 0 0 15px #00fff2, 0 0 25px #00fff2;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Back to Homepage Button -->
+<a href="index.html" class="home-btn">⬅ Back to Homepage</a>
+
+<!-- Big Clickable Resume -->
+<a href="resume.pdf" target="_blank" style="text-decoration:none;">
+    <div class="resume-box">
+        <img src="resume-thumbnail.jpeg" alt="My Resume">
+        <h2>📄 View My Resume</h2>
+    </div>
+</a>
+
+</body>
+</html>
