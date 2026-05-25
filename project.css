@@ -1,4 +1,4 @@
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 * {
   margin: 0;
   padding: 0;
@@ -6,15 +6,16 @@
 }
 
 body {
-  font-family: 'Audiowide', cursive;
+ 
+  font-family: "Times New Roman", Times, serif;
   transition: background 0.5s, color 0.5s;
   overflow-x: hidden;
 }
 
 
 body {
-  background: linear-gradient(to right, #0f0f1f, #020211);
-  color: #00f7ff;
+  background: linear-gradient(to right, #030000, #000000);
+  color: #2fbbb4;
 }
 
 
@@ -23,15 +24,15 @@ canvas#particles {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100vh;                                                                                  
   z-index: 0;
   pointer-events: none;
 }
 
 .toggle-btn {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 200px;
+  right: 100px;
   padding: 10px 15px;
   background-color: rgba(0, 255, 255, 0.1);
   color: #00f7ff;
